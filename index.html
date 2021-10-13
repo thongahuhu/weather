@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script src="font/all.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="content-section">
+            <div class="search-bar">
+                <i class="fas fa-search search-icon"></i>
+                <input type="text" name="search-city" id="search" placeholder="Enter to search...">
+            </div>
+            <div class="info-wrapper">
+                <p class="city-name"></p>
+                <p class="weather-state">mây rải rác</p>
+                <img src="https://openweathermap.org/img/wn/03d@2x.png" alt="" class="weather-icon">
+                <p class="temperature">24</p>
+            </div>
+        </div>
+        <div class="additional-section">
+            <div class="row">
+                <div class="col">
+                    <div class="label">Mặt trời mọc</div>
+                    <div class="value sunrise">5:41</div>
+                </div>
+                <div class="col">
+                    <div class="label">Mặt trời lặn</div>
+                    <div class="value sunset">17:50</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="label">Độ ẩm</div>
+                    <div class="value"><span class="humidity">73</span>%</div>
+                </div>
+                <div class="col">
+                    <div class="label">Gió</div>
+                    <div class="value"><span class="wind-speed">5.54</span> km/h</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+    <script src="./moment.js"></script>
+</body>
+</html>
