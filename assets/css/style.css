@@ -11,7 +11,7 @@ html {
 .app {
     width: 400px;
     color: #fff;
-    margin: 50px auto;
+    margin: 0 auto;
     background: linear-gradient(145deg, #2193b0, #6dd5ed);
     border-radius: 5px;
     font-size: 14px;
@@ -56,8 +56,8 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh;
-    padding: 80px 50px;
+    height: 76vh;
+    padding: 40px 50px;
 }
 
 .city-name {
